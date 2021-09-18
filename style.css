@@ -6,21 +6,18 @@ h1 {
     text-shadow: 2px 2px #F8BBDO;
     font-size: 50px;
     font-family: 'Comfortaa', cursive;
+    color: white;
 }
+
 h2 {
     font-family: 'Fira Sans Condensed', sans-serif;
-
-}
-
-bio {
-    padding: 20px;
-    font-size: 18px;
-    text-align: center;
+    color: white;
 }
 
 img {
     border-radius: 50%;
     width: 350px;
+    height: 350px;
 }
 
 .menu {
@@ -32,11 +29,14 @@ img {
     z-index: 10;
     font-size: 18px;
     font-family: monospace;
-}
-.link {
-    display: inline;
     
 }
+
+.link {
+    display: inline;
+
+}
+
 .inspiration {
     width: 300px;
     height: 300px;
@@ -44,6 +44,25 @@ img {
     transition: transform .2s;
     margin-right: 10px;
 }
+
 .inspiration:hover {
     transform: scale(0.9)
+}
+#about {
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Awesome-Pink-Gradient-Wallpaper.jpg")
+}
+#my_projects {
+    background-image: url("https://images.wallpaperscraft.com/image/flowers_patterns_art_127750_1920x1080.jpg");
+}
+#importance {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.XYwnDHETZQ0O_pM76ZUSogHaEo&pid=Api&P=0&w=270&h=169");
+}
+#inspiration {
+    background-image: url("https://as2.ftcdn.net/jpg/01/29/36/53/500_F_129365316_u5mBHrTB1l2wQl98MSf3JN38UgCTe5dP.jpg");
+}
+#contact {
+   background-image: url("https://wallpapertag.com/wallpaper/full/3/4/9/120457-popular-blue-pattern-background-1920x1080.jpg"); 
+}
+#font1 {
+    color: white;
 }
